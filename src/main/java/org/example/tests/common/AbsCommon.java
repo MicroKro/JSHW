@@ -1,4 +1,4 @@
-package Common;
+package org.example.tests.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
