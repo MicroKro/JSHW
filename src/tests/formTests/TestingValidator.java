@@ -22,7 +22,7 @@ public class TestingValidator extends AbsBasePages {
 
     @BeforeEach
     public void setUp(){
-        driver.get(URL);
+        driver.get(AbsBasePages.URL);
         System.out.println("Запуск драйвера");
     }
 
@@ -37,10 +37,10 @@ public class TestingValidator extends AbsBasePages {
     @Test
     public void testValidator() {
         open("/form.html");
-        getById("username").sendKeys(NAME);
+        getById("username").sendKeys(AbsBasePages.NAME);
         getById("email").sendKeys("myau@gmail.com");
-        getById("password").sendKeys(PASSWORD);
-        getById("confirm_password").sendKeys(WRONGPASSWORD);
+        getById("password").sendKeys(AbsBasePages.PASSWORD);
+        getById("confirm_password").sendKeys(AbsBasePages.WRONGPASSWORD);
         WebElement select = languageLevEl;
         Select solutions = new Select(select);
         solutions.selectByValue("intermediate");
