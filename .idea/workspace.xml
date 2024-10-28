@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="041415d6-fd31-4c44-8ab9-504fb368ad14" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2nWok6pLe2p4SG2aRiXYxCfh6Za" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.Testing.setName.executor": "Run",
+    "JUnit.TestingForm.executor": "Run",
+    "JUnit.TestingForm.fillFilds (1).executor": "Run",
+    "JUnit.TestingForm.fillFilds.executor": "Run",
+    "JUnit.TestingForm.setName.executor": "Run",
+    "JUnit.TestingValidator (1).executor": "Run",
+    "JUnit.TestingValidator.executor": "Run",
+    "JUnit.testingValidator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Di/Downloads/otus_actions-196191-4b44b4",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Di\IdeaProjects\JSHW\src\main\java\org\example" />
+      <recent name="C:\Users\Di\IdeaProjects\JSHW\src\main" />
+      <recent name="C:\Users\Di\IdeaProjects\JSHW\src\tests" />
+      <recent name="C:\Users\Di\IdeaProjects\JSHW\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestingValidator">
+    <configuration name="TestingForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JSHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FormTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Form" />
+      <option name="MAIN_CLASS_NAME" value="FormTests.TestingForm" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestname=Диана -Dtestpass=gfhjkm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingValidator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JSHW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FormTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Form" />
+      <option name="MAIN_CLASS_NAME" value="FormTests.TestingValidator" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestname=Диана -Dtestpass=gfhjkm -Dteswrongtpass=klhgbk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestingValidator" />
+      <item itemvalue="JUnit.TestingForm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestingValidator" />
+        <item itemvalue="JUnit.TestingForm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="041415d6-fd31-4c44-8ab9-504fb368ad14" name="Changes" comment="" />
+      <created>1729098334292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729098334292</updated>
+    </task>
+    <servers />
+  </component>
+</project>
