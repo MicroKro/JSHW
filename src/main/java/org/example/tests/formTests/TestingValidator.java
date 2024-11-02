@@ -1,6 +1,6 @@
 package org.example.tests.formTests;
 
-import Pages.AbsBasePages;
+import org.example.tests.pages.AbsBasePages;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,6 +1,6 @@
 package org.example.tests.formTests;
 
-import Pages.AbsBasePages;
+import org.example.tests.pages.AbsBasePages;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
