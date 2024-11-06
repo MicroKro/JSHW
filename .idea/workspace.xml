@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041415d6-fd31-4c44-8ab9-504fb368ad14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="041415d6-fd31-4c44-8ab9-504fb368ad14" name="Changes" comment="fixes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/common/AbsCommon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/pages/AbsBasePages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
     &quot;JUnit.TestingValidator.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.testingValidator.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -64,8 +66,11 @@
       <recent name="C:\Users\Di\IdeaProjects\JSHW\src\tests" />
       <recent name="C:\Users\Di\IdeaProjects\JSHW\src\main\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="src.java.formTests" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestingForm">
+  <component name="RunManager" selected="JUnit.TestingValidator">
     <configuration name="TestingForm" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="JSHW" />
       <extension name="coverage">
@@ -74,8 +79,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.tests.formTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.tests.formTests.TestingForm" />
+      <option name="PACKAGE_NAME" value="formTests" />
+      <option name="MAIN_CLASS_NAME" value="formTests.TestingForm" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Dtestname=Диана -Dtestpass=gfhjkm -Dteswrongtpass=klhgbk" />
@@ -91,8 +96,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.tests.formTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.tests.formTests.TestingValidator" />
+      <option name="PACKAGE_NAME" value="formTests" />
+      <option name="MAIN_CLASS_NAME" value="formTests.TestingValidator" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -Dtestname=Диана -Dtestpass=gfhjkm -Dteswrongtpass=klhgbk" />
@@ -120,5 +125,9 @@
       <updated>1729098334292</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>
