@@ -1,13 +1,17 @@
-package org.example.tests.pages;
+package pages;
 
-import org.example.tests.common.AbsCommon;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import java.time.Duration;
 
-public abstract class AbsBasePages  extends AbsCommon {
+public abstract class AbsBasePages  extends AbsPage {
 
     public AbsBasePages(WebDriver driver) {
         super(driver);
@@ -41,4 +45,19 @@ public abstract class AbsBasePages  extends AbsCommon {
         );
         return this;
     };
+
+    public abstract static class AbsCommon {
+
+        protected WebDriver driver;
+        protected WebDriverWait driverWait;
+        protected Actions actions; //пока под вопросом
+
+        public AbsCommon (WebDriver driver) {
+            WebDriverManager.chromedriver().setup();
+            this.driver = driver;
+            this.driverWait = new WebDriverWait(driver, Duration.ofSeconds(7));
+            this.actions = new Actions(driver);
+            PageFactory.initElements(driver, this);
+        }
+    }
 }
